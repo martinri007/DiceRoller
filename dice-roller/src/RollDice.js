@@ -26,7 +26,7 @@ class RollDice extends Component {
         return (
             <div id="diceContainer">
                 <Dice val={die1}/>
-                <Dice val="4"/>
+                <Dice val={die2}/>
 
             </div>
 
