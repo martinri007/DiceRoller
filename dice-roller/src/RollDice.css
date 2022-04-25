@@ -10,3 +10,16 @@
     display: flex;
     column-span: 2;
 }
+button{
+    background-color: gray;
+    color: white;
+    font-size: 1em;
+    padding: 0.3em;
+    border-radius:0.5em;
+    margin: 0.2em;
+}
+
+table,td{
+    border: 1px solid;
+    min-width: 1.2em;
+}
