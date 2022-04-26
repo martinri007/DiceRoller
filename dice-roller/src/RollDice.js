@@ -18,12 +18,14 @@ class RollDice extends Component {
         this.roll = this.roll.bind(this)
     }
     roll() {
+        let roll1=Math.ceil(Math.random() * 6);
+        let roll2=Math.ceil(Math.random() * 6);
         this.setState({
-            die1: Math.ceil(Math.random() * 6),
-            die2: Math.ceil(Math.random() * 6),
+            die1: roll1,
+            die2: roll2,
         })
         console.log("kostka 1: " + this.state.die1 + "kostka 2: " + this.state.die2);
-        let sumaHodu = this.state.die1 + this.state.die2;
+        let sumaHodu = roll1 + roll2;
         this.setState({
             sum: sumaHodu,
         })
