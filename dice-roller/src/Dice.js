@@ -1,12 +1,13 @@
 import { Component } from "react";
 
-class Dice extends Component{
+class Dice extends Component {
     render() {
-        const {val} = this.props;
+        const { val } = this.props;
         return (
             <div id="die">
-                {val}
-
+                <div id="dieText">
+                    {val}
+                </div>
             </div>
         )
     }

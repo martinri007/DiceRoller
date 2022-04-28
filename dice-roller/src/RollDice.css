@@ -1,25 +1,48 @@
 #die {
-    background-color: rgb(189, 58, 58);
-    padding: 1em;
-    margin: 0.5em;
-    border-radius:0.5em;
+  background-color: rgb(121, 35, 35);
+  width: 4em;
+  height: 4em;
+  border-radius: 0.5em;
+  margin: auto;
+  margin-bottom: 2em;
+  justify-content: center;
+}
 
+#dieText {
+  height: 100%;
+  padding: 0.3em 0;
+  font-size: 2em;
 }
 
 #diceContainer {
-    display: flex;
-    column-span: 2;
-}
-button{
-    background-color: gray;
-    color: white;
-    font-size: 1em;
-    padding: 0.3em;
-    border-radius:0.5em;
-    margin: 0.2em;
+  display: flex;
+  column-span: 2;
+  margin: auto;
 }
 
-table,td{
-    border: 1px solid;
-    min-width: 1.2em;
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: gray;
+  color: white;
+  font-size: 1em;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 0.2em;
+  margin-bottom: 3em;
+  width:7em;
+}
+
+table,
+td {
+  border: 1px solid;
+  min-width: 1.2em;
+}
+
+#chart{
+  border:1em;
+  margin:auto;
 }
